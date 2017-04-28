@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+      <meta charset="utf-8">
+      <title>Numbers and Strings</title>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <h1>Numbers and Strings</h1>
+        <form name="numStringForm">
+            <label for="enter">Enter numbers or text:</label><br>
+              <textarea id="entry"></textarea>
+            <br>
+            <button type="submit" id="submit" onclick="numberString()">Submit</button>
+            <button type="reset" id="reset" onclick="resetForm()">Reset</button>
+        </form>
+     <section id="entries">
+       <h3>Numbers</h3>
+           <p id="count">Count:</p>
+           <p id="sum">Sum:</p>
+           <p id="average">Average:</p>
+       <h3>Strings</h3>
+           <p id="stings">Number of Strings:</p>
+        </section>
+    </body>
+    
+</html>
